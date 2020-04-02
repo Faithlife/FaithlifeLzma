@@ -1,7 +1,7 @@
 <Project>
 
   <PropertyGroup>
-    <VersionPrefix>16.04</VersionPrefix>
+    <VersionPrefix>16.4.0</VersionPrefix>
     <LangVersion>8.0</LangVersion>
     <Nullable>disable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
