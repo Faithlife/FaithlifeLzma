@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Description>LZMA SDK under the MIT license</Description>
-    <PackageTags>lzma</PackageTags>
+    <PackageTags>lzma;7z;7zip;sevenzip</PackageTags>
     <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
