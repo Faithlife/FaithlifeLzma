@@ -26,4 +26,13 @@ jobs:
       run: dotnet restore
 
     - name: Build
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Pack
+      run: dotnet pack --configuration Release --no-build --no-restore
+
+    - name: Upload
+      uses: actions/upload-artifact@v1
+      with:
+        name: NuGet-Package
+        path: src/Faithlife.Lzma/bin/Release/Faithlife.Lzma.16.4.0.nupkg
