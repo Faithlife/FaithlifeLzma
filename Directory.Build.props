@@ -1,7 +1,7 @@
 <Project>
 
   <PropertyGroup>
-    <VersionPrefix>18.1.0</VersionPrefix>
+    <VersionPrefix>19.0.0</VersionPrefix>
     <LangVersion>8.0</LangVersion>
     <Nullable>disable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>

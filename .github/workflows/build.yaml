@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: NuGet-Package
-        path: src/Faithlife.Lzma/bin/Release/Faithlife.Lzma.18.1.0.nupkg
+        path: src/Faithlife.Lzma/bin/Release/Faithlife.Lzma.19.0.0.nupkg
